@@ -1,0 +1,23 @@
+Package: pbs
+Type: Package
+Title: pesudo bulk sampling
+Version: 2.3.0
+Author: Gerrard Mak
+Maintainer: The package maintainer <gerrardmai@126.com>
+Depends: R (>= 3.5.0)
+Description: pesudo bulk sampling single cell RNA Seq data.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  Seurat,
+  apcluster,
+  foreach,
+  doParallel,
+  flexclust,
+  dummies,
+  RColorBrewer,
+  ggplot2,
+  fastcluster,
+  cluster,
+  igraph
